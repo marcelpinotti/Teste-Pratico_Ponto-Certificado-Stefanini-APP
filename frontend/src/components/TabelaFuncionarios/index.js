@@ -1,0 +1,32 @@
+<div className="table-responsive">
+    <table className="table table-striped table-sm">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Sexo</th>
+                <th>CPF</th>
+                <th>Pis</th>
+                <th>E-mail</th>
+                <th>Admissão</th>
+                <th>Cargo</th>
+                <th>Salário</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Marcel</td>
+                <td>Pinotti</td>
+                <td>Masculino</td>
+                <td>32154387609</td>
+                <td>10.222/000-01</td>
+                <td>marcel@xyz.com.br</td>
+                <td>08/10/2021</td>
+                <td>Estagiário</td>
+                <td>1000.00</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
