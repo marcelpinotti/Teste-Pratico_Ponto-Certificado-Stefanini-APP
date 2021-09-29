@@ -5,7 +5,7 @@
 
 html, body {
     height: 100%;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 #root {
@@ -29,4 +29,30 @@ html, body {
 
 .text-primary {
     color: var(--color-primary) !important;
+}
+
+.form-group {
+    margin-bottom:30px;
+}
+input {
+    padding: 12px 20px;
+    margin: 8px 8px;
+    box-sizing: border-box;   
+}
+
+a { 
+    font-family: "Raleway", sans-serif;
+    color: rgb(3, 125, 141);
+    padding: 1px 18px;
+    font-size: medium;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: rgb(2, 8, 43);
+}
+
+.img{
+    padding: 1px 5px;
 }

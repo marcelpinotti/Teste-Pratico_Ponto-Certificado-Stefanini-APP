@@ -7,7 +7,16 @@ const NavBar = () => {
             <div className="container">
                 <nav className="my-2 my-md-0 mr-md-3">
                     <Link to="/">
-                        <img src={ImgDsDark} alt="PontoCertificado" width="80" />
+                        <img className="img" src={ImgDsDark} alt="PontoCertificado" width="140"/>
+                    </Link>
+                    <Link to="/">
+                        <a> HOME </a>
+                    </Link>
+                    <Link to="/cadastro">
+                        <a> CADASTRO </a>
+                    </Link>
+                    <Link to="/busca">
+                        <a> BUSCA </a>
                     </Link>
                 </nav>
             </div>
