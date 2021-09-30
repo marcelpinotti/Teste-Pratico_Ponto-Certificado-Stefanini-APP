@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Cadastro from "./pages/Cadastro";
 import Busca from "./pages/Busca";
+import Funcionarios from "./pages/Funcionarios";
 
 const Routes = () => {
     return (
@@ -15,6 +16,9 @@ const Routes = () => {
                 </Route>
                 <Route path="/busca" exact>
                     <Busca />
+                </Route>
+                <Route path="/funcionarios" exact>
+                    <Funcionarios />
                 </Route>
             </Switch>
        </BrowserRouter>

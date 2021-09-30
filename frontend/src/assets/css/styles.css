@@ -33,6 +33,7 @@ html, body {
 
 .form-group {
     margin-bottom:30px;
+
 }
 input {
     padding: 12px 20px;
@@ -43,7 +44,7 @@ input {
 a { 
     font-family: "Raleway", sans-serif;
     color: rgb(3, 125, 141);
-    padding: 1px 18px;
+    padding: 1px 15px;
     font-size: medium;
     text-decoration: none;
 
@@ -56,3 +57,4 @@ a:hover{
 .img{
     padding: 1px 5px;
 }
+
