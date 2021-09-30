@@ -26,7 +26,7 @@ const Cadastro = () => {
                                     <input className="form-control" type="number" class="form-control" id="inputSalario" placeholder="Salario" />
                                     <input className='form-control' type="date" class="form-control" id="inputAdmissao" placeholder="" />
                                 </div>
-                            <button type="submit" class="btn btn-primary">Entrar</button>
+                            <button type="submit" class="btn btn-primary">Cadastrar</button>
                         </form>
                 </div>
             </div>
