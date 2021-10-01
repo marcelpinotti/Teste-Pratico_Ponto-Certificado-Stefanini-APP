@@ -3,7 +3,7 @@ const TabelaFuncionarios = () => {
 
     return (
         <>
-            <div className = "table-responsive">
+            <div className = "table-responsive-sm row mx-md-n8 col px-md-5">
                 <table className="table table-hover table-sm">
                     <thead>
                         <tr>
