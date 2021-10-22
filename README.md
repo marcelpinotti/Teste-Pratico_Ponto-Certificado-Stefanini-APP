@@ -30,7 +30,7 @@
 
     - Post: /funcionario/salvar;
 
-    - Delete: /funcionario/salvar/id.
+    - Delete: /funcionario/deletar/id.
 
       
 

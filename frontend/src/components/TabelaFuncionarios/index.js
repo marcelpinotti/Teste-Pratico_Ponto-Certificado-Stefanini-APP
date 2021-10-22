@@ -1,5 +1,18 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
+import { PageTabela } from "types/Funcionario";
+import { BASE_URL } from "utils/requests";
+
 
 const TabelaFuncionarios = () => {
+
+    useEffect(() => {
+        axios.get(`${BASE_URL}/funcionarios`)
+            .then(response => {
+                setPage(response.data);
+            })
+    }, [activePage])
+
 
     return (
         <>
