@@ -1,49 +1,53 @@
-<h1>PROJETO PARA CADASTRO DE FUNCIONÁRIOS</h1>
+# PROJETO PARA CADASTRO DE FUNCIONÁRIOS
+
+## Resumo
+O projeto é um desafio técnico que consistiu na criação de um app para cadastro e consulta de funcionários.
+
+## Pré-Requisitos
+Foram necessários os seguintes pré-requisitos para a execução do projeto:
+
+### Tecnologias Utilizadas Back-end:
+
+* Linguagem Java 11;
+
+* Spring Boot Framework;
+
+* Spring Data JPA;
+
+* Spring Boot Security;
+
+* SGBD - PostgreSQL;
+
+* Postman - testar requisições no back-end;
+
+* Maven;
+
+  * Deploy Heroku: https://marcelpinotti-pontocertificado.herokuapp.com/
+
+  * *Obs: foram criados 5 id's;*
 
 
+| Tipo | Descrição                                             | Caminho                                                      |
+| ---- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| POST | Cria um funcionário.                                  | **/funcionario/salvar**                                      |
+| GET  | Retorna uma lista de funcionários.                    | **/funcionarios**                                            |
+| DEL  | Deleta um funcionário pelo id.                        | **/funcionario/{id}**                                        |
+| GET  | Retorna um funcionário pelo id.                       | **/funcinario/{id}**                                         |
+  
+### Tecnologias Utilizadas Front-end:
 
-<h4>O projeto é um desafio técnico que consistia na criação de um app para cadastro e consulta de funcionários.<h4>
+* Linguagem Javascript;
 
-<h5>Tecnologias Utilizadas Back-end:</h5>
+* ReactJS;
 
-- Linguagem Java 11;
+  * Deploy Netlify: https://marcelpinotti-pontocertificado.netlify.app/
 
-- Spring Boot Framework;
-
-- Spring Data JPA;
-
-- Spring Boot Security;
-
-- SGBD - PostgreSQL;
-
-- Postman - testar requisições no back-end;
-
-- Maven;
-
-  - Deploy Heroku: https://marcelpinotti-pontocertificado.herokuapp.com/
-
-  - *Obs: foram criados 5 id's;*
-
-    -  Get: /funcionario/id;
-
-    - Get: /funcionarios;
-
-    - Post: /funcionario/salvar;
-
-    - Delete: /funcionario/deletar/id.
-
-      
-
-<h5>Tecnologias Utilizadas Front-end:</h5>
-
-- Linguagem Javascript;
-
-- ReactJS;
-
-  - Deploy Netlify: https://marcelpinotti-pontocertificado.netlify.app/
-
-  - *Obs: Inicialmente o site está estático.*
+  * *Obs: Inicialmente o site está estático.*
 
     
+## MVP para avaliação
+* O projeto foi finalizado para a primeira entrega e avaliação;
 
-O projeto está sendo finalizado, a última etapa será a criação da comunicação entre os formulários e a tabela com o banco de dados, para isso estou estudando Axios para fazer as requisições.
+## Desafio pessoal
+* A próxima etapa do banck-end será a refatoração do das entidades, a utilização do padrão DTO, a criação do método PUT, a criação de mais end-points, a criação das services, o tratamento de exceções e criação dos testes unitários.
+* A próxima etapa do front-end será a criação da comunicação entre os formulários com as tabelas do banco de dados, para esta etapa estou estudando Axios.
